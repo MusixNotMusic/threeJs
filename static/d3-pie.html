@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+  <div id="Pie" style="width: 500px; height: 500px; margin: 0 auto;"></div>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r69/three.min.js"></script>
+  <script src="pie.js"></script>
+  <script>
+    new Pie('Pie', {
+      divisions: [0.25, 0.6],
+      colors: ['orange', 'steelblue', 0xCCCCCC]
+    });
+
+  </script>
+</body>
