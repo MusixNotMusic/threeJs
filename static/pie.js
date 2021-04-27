@@ -1,4 +1,4 @@
-    
+// https://threejs.org/docs/index.html#api/zh/geometries/LatheGeometry
 (function (_, THREE) {
     var Pie = window.Pie = function (id, data) {
       this.el = document.getElementById(id);
